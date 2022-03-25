@@ -1,0 +1,11 @@
+.smallImage img{
+   border-radius: 50%;
+   width: 30px;
+   margin: 5px;
+   padding: 5px;
+}
+.iconF{
+    color: red;
+    margin: 8px;
+    cursor: pointer;
+}

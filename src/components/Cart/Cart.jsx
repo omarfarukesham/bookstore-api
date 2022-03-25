@@ -1,27 +1,30 @@
 import React from 'react';
+import Details from '../Details/Details';
 
 const Cart = ({cart}) => {
-    console.log(cart);
+    //console.log(cart);
 
  let names = []
  for(const product of cart){
-     //console.log(product)
-        let getName = product.book_name
-        names.push(getName)
-        console.log(getName)
-
+        names.push(product)
+        //console.log(getName)
  }
 
 
- console.log(names);
+ //console.log(names);
 
     return (
         <div>
             <h1>Qty: {cart.length}</h1>
             {
-                names.map(bname =><p>{bname}</p>)
+                names.map(pd =><Details key= {pd.id } details={pd}
+                
+                ></Details>)
             }
            
+           <button className='btn btn-primary m-3'>Choose One for Me</button>
+          
+           <button className='btn btn-danger'>Remove All</button>
         </div>
     );
 };
