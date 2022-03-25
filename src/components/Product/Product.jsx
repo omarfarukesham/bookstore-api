@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Product = (props) => {
-    console.log(props.product);
+    // console.log(props.product);
     const{book_name, price, image} = props.product
     return (
         <div className="col-md-4 my-3">
@@ -11,7 +11,7 @@ const Product = (props) => {
                    <h5 className="card-title">bName:{" "}{book_name}</h5>
                    <p className="card-text">${price}</p>
             
-                   <button  className="btn btn-primary" > Buy Now </button>
+                   <button onClick={()=>props.orderHandler(props.product)} className="btn btn-primary" > Buy Now </button>
                 </div>
            </div>
         </div>
