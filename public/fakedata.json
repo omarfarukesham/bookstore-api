@@ -1,0 +1,42 @@
+[
+  {
+    "id": "623dd89bd5a755462b76ccc2",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "price": 418,
+    "author": "Jankar Mahbub",
+    "book_name": "হাবলুদের প্রোগ্রামিং",
+    "gender": "female"
+  },
+  {
+    "id": "623dd89b2ab68fa712f29160",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "price": 315,
+    "author": "Jankar Mahbub",
+    "book_name": "Lilly Webster",
+    "gender": "female"
+  },
+  {
+    "id": "623dd89b8b786528b3860728",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "price": 519,
+    "author": "H.M Nayeem",
+    "book_name": "Constance Sosa",
+    "gender": "female"
+  },
+  {
+    "id": "623dd89beece689a5870b3b3",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "price": 230,
+    "author": "Tamim Shubi",
+    "book_name": "Brianna Barker",
+    "gender": "female"
+  },
+  {
+    "id": "623dd89b06cbb4416b42e519",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "price": 311,
+    "author": "H.M Nayeem",
+    "book_name": "Day Dawson",
+    "gender": "male"
+  }
+]
