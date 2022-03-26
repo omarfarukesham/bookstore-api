@@ -8,8 +8,8 @@ const Product = (props) => {
         <div className="card"> 
             <img src={image} className="card-img-top" alt="Product Images" />
                 <div className="card-body">
-                   <h5 className="card-title">bName:{" "}{book_name}</h5>
-                   <p className="card-text">${price}</p>
+                   <h5 className="card-title">বই:{" "}{book_name}</h5>
+                   <p className="card-text">মূল্য: {' '}${price}</p>
             
                    <button onClick={()=>props.orderHandler(props.product)} className="btn btn-primary" > Buy Now </button>
                 </div>

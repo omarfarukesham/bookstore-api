@@ -5,38 +5,70 @@
     "price": 418,
     "author": "Jankar Mahbub",
     "book_name": "হাবলুদের প্রোগ্রামিং",
-    "gender": "female"
+    "gender": "Male"
   },
   {
     "id": "623dd89b2ab68fa712f29160",
-    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/0a7334a0a_119934.jpg",
     "price": 315,
-    "author": "Jankar Mahbub",
-    "book_name": "Lilly Webster",
-    "gender": "female"
+    "author": "Tamim Subin",
+    "book_name": " কম্পিউটার প্রোগ্রামিং ",
+    "gender": "Male"
+  },
+  {
+    "id": "623dd89b2ab68fa712f29160",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/daf9587f9_151491.jpg",
+    "price": 315,
+    "author": "ডা. মোক্তার হোসেন",
+    "book_name": " জাভা প্রোগ্রামিং ",
+    "gender": "Male"
+  },
+  {
+    "id": "623dd89b2ab68fa712f29160",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/c3a744e71_206479.jpg",
+    "price": 315,
+    "author": "নাসির খান সৈকত",
+    "book_name": "পিএচইপি ওয়েব প্রোগ্রামিং ",
+    "gender": "Male"
+  },
+  {
+    "id": "623dd89b2ab68fa712f29160",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20…art_2-Dr_Munshi_Naser_Ibne_Afjal-445af-218980.PNG",
+    "price": 315,
+    "author": "নাসের ইবনে আফজাল",
+    "book_name": " আর প্রোগ্রামিং ",
+    "gender": "Male"
+  },
+  {
+    "id": "623dd89b2ab68fa712f29160",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/f0836d0b7_158227.jpg",
+    "price": 315,
+    "author": "ঝংকার মাহবুব",
+    "book_name": "প্রোগ্রামিং এর চৌদ্দগোষ্টি",
+    "gender": "Male"
   },
   {
     "id": "623dd89b8b786528b3860728",
-    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/Python_Programming_310-Zakir_Hossain-0ad51-226630.jpg",
     "price": 519,
-    "author": "H.M Nayeem",
-    "book_name": "Constance Sosa",
+    "author": "জাকির হোসেন",
+    "book_name": "পাইথন প্রোগ্রামিং ৩.১০",
     "gender": "female"
   },
   {
     "id": "623dd89beece689a5870b3b3",
-    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/e53af8191_202772.jpg",
     "price": 230,
-    "author": "Tamim Shubi",
-    "book_name": "Brianna Barker",
-    "gender": "female"
+    "author": "জুনায়েদ আহম্মদ",
+    "book_name": "হাতে কলমে প্রোগ্রামিং",
+    "gender": ""
   },
   {
     "id": "623dd89b06cbb4416b42e519",
-    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/Programming_er_Addotanta-H_M_Nayem-586bc-228332.jpg",
     "price": 311,
     "author": "H.M Nayeem",
-    "book_name": "Day Dawson",
+    "book_name": "প্রোগ্রামিং এর আদ্যোপান্ত",
     "gender": "male"
   }
 ]

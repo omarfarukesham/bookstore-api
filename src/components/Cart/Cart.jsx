@@ -6,25 +6,22 @@ const Cart = ({cart}) => {
 
  let names = []
  for(const product of cart){
-        names.push(product)
-        //console.log(getName)
+    names.push(product)
  }
 
-
- //console.log(names);
+console.log(names.length);
 
     return (
         <div>
             <h1>Qty: {cart.length}</h1>
-            {
-                names.map(pd =><Details key= {pd.id } details={pd}
-                
-                ></Details>)
-            }
-           
-           <button className='btn btn-primary m-3'>Choose One for Me</button>
+            
+               {
+                names.map(pd =><Details key= {pd.id } details={pd}></Details>)
+              }
+                  
+           <button  className='btn btn-primary m-3'>Choose One for Me</button>
           
-           <button className='btn btn-danger'>Remove All</button>
+           <button  className='btn btn-danger'>Remove All</button>
         </div>
     );
 };

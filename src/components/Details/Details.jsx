@@ -6,7 +6,7 @@ const Details = (props) => {
         <div className='smallImage'>
             <img src={image} alt="cartImages" />
             {book_name}
-            <i class="fa-solid fa-trash-can iconF"></i>
+            <i className="fa-solid fa-trash-can iconF"></i>
         </div>
     );
 };
