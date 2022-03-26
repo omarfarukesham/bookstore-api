@@ -2,28 +2,39 @@ import React from 'react';
 import Details from '../Details/Details';
 
 const Cart = ({cart}) => {
-    //console.log(cart);
+ //console.log(cart)
 
  let names = []
  for(const product of cart){
-    names.push(product)
+     if(names.length <= 3){
+        names.push(product)
+     }else{
+        //  alert('Only 4 Product you can Buy')
+     }
  }
+//  const randCount = (item) =>{
+//     console.log(item)
+//     // var item = item[Math.ceil(Math.random() * item.length)];
+//    var item = item[Math.floor((Math.random()*item.length))];
+//     console.log(item)
+//     names.push(item)
 
-console.log(names.length);
+// }
+
+const cartLength = cart.length
 
     return (
         <div>
-            <h1>Qty: {cart.length}</h1>
+            <h3>Qty: {cartLength }</h3>
             
                {
                 names.map(pd =><Details key= {pd.id } details={pd}></Details>)
               }
-                  
-           <button  className='btn btn-primary m-3'>Choose One for Me</button>
+            
           
-           <button  className='btn btn-danger'>Remove All</button>
         </div>
     );
 };
+
 
 export default Cart;

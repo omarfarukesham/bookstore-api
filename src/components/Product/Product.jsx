@@ -11,7 +11,7 @@ const Product = (props) => {
                    <h5 className="card-title">বই:{" "}{book_name}</h5>
                    <p className="card-text">মূল্য: {' '}${price}</p>
             
-                   <button onClick={()=>props.orderHandler(props.product)} className="btn btn-primary" > Buy Now </button>
+                   <button onClick={()=>props.orderHandler(props.product)} className="btn btn-primary" > Buy Now {" "}<i className="fa-solid fa-cart-plus"></i> </button>
                 </div>
            </div>
         </div>
