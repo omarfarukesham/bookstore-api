@@ -1,6 +1,6 @@
 # Book store react app(by Omar Faruk)
-This app help you to get your favorit programming books. thant
-This project was bootstrapped with [Create React App](https://omarfarukesham-assign-eight.netlify.app/).
+This app help you to get your favorit programming books,
+This project was bootstrapped with [Visit Live Website](https://omarfarukesham-assign-eight.netlify.app/).
 
 ## Available Scripts
 
