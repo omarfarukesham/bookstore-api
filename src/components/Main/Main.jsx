@@ -22,37 +22,26 @@ const Main = () => {
                 setCart(newCart)
     }
 
+
     const randId = []
     for(const getProduct of cart){
             randId.push(getProduct.book_name)
     }
 
     const randCount = (item) =>{
-       
-    //    setCart([
-    //      ...cart.splice(0, item.length),   
-    //     // cart.splice(0, item.length)    
-    //   ]);
-
-    //   console.log(cart);
-
          var randItem = item[Math.floor((Math.random()*item.length))];
-
-        setRandcart(randItem)
-     
-     
-       
+         setRandcart(randItem)
     }
+
+
     const removeItem = (item) =>{
-       
         setCart([
-         ...cart.splice(0, item.length),   
+         cart.splice(0, item.length),   
       ]);
-
+      setRandcart(item)
       console.log('remove item', item);
-      
+
     }
-// console.log(randCart);
     
     return (
         <div className='main-container row d-flex justify-content-around'>
@@ -69,7 +58,7 @@ const Main = () => {
         </div>
         <div className="order-summary align-items-center col-md-4 bg-dark text-white h-50 mt-5 sticky-top ">
            <h2>Order Summary</h2>
-            <h3 className='text-warning'>Random Choice {randCart}</h3>
+            <h3 className='text-warning'>Random Choice.. {randCart}</h3>
             <Cart cart={cart} randCart={randCart} ></Cart>
             <button onClick={() => randCount(randId)} className='btn btn-primary m-3'>Choose One for Me</button>
             <button onClick={()=> removeItem(cart)} className='btn btn-danger'>Remove All</button>
