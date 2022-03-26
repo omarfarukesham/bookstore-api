@@ -1,3 +1,4 @@
+import FaQ from "./components/FaQ/FaQ";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Header></Header>
       <Main></Main>
+      <FaQ></FaQ>
     </div>
   );
 }
